@@ -62,11 +62,14 @@ function Card({ cod_ciudad }) {
     if (loading) return 'Loading...';
     if (error) return `Error! ${error.message}`;
 
+    const viewContainerCard = (props) => {
+        console.log(props);
+    }
     return (
         <ContainerCards>
             {
                 data.buscarUsuario.map((item) => (
-                    <ContainerCard>
+                    <ContainerCard onClick={() => viewContainerCard(item)}>
                         <Wrapper>
                             <p>{item.nomb_usuar}</p>
                             <p>{item.apell_usuar}</p>
