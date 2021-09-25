@@ -1,11 +1,20 @@
 :root {
     --clr-dark: rgb(13, 17, 19);
     --clr-light: #fff;
+    --clr-viewcontainer: whitesmoke;
+    --clr-containerimg: #c7c7c7c7;
     --clr-accent: rgb(222, 52, 0);
-    --clr-descrip: #707070; }
+    --clr-descrip: #707070; 
+    --clr-containerimg: #ecf2fa;
+}
 
 
     body{
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
         margin: 0;
         padding: 0;
     }

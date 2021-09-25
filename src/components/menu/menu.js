@@ -9,7 +9,7 @@ import { Link } from '@reach/router'
 const ContainerMenu = styled.div`
     width: 20%;
     height: 120vh;
-    background-color: whitesmoke;
+    background-color: var(--clr-viewcontainer);
 `
 
 const ContainerUl = styled.ul`
