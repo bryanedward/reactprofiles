@@ -63,7 +63,6 @@ function Card({ cod_ciudad }) {
     if (error) return `Error! ${error.message}`;
 
     const viewContainerCard = (props) => {
-        console.log(props);
     }
     return (
         <ContainerCards>
