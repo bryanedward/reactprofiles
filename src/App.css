@@ -4,16 +4,54 @@
     --clr-viewcontainer: whitesmoke;
     --clr-containerimg: #c7c7c7c7;
     --clr-accent: rgb(222, 52, 0);
-    --clr-descrip: #707070; 
+    --clr-descrip: #707070;
     --clr-containerimg: #ecf2fa;
 }
 
-    body{
-        margin: 0;
-        padding: 0;
-    }
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    p{
-        margin: 0;
-        padding: 0;
-    }
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.containerHome {
+    display: flex;
+}
+
+.imagenes {
+    margin: 1rem;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.imagenes:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+    transition: transform 3s ease-in-out;
+}
+
+.infoadicional{
+    transform: rotateY(180deg);
+    right: 0;
+    top: 0;
+    left: 0;
+    margin-top: 9rem;
+    color:var(--clr-viewcontainer);
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.imagenes:hover .containerInfo{
+    display: none;
+}
+
+.mdSend{
+    margin: auto;
+    width: 100%;
+    height: 40px;
+}

@@ -18,14 +18,13 @@ const ContainerInfo = styled.div`
     font-weight: bolder;
     padding: 6px;
     text-align: center;
-
 `
 
 function Info(item) {
     return (
         <ContainerDetail>
             <ContainerImg src={item.foto_usuar} />
-            <ContainerInfo>
+            <ContainerInfo className="containerInfo">
                 <p>{item.nomb_usuar} {item.apell_usuar}</p>
             </ContainerInfo>
         </ContainerDetail>

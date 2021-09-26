@@ -2,7 +2,13 @@
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    margin-bottom: 1.4rem;
     font-weight: bolder;
     color: var(--clr-dark);
+    margin-bottom: 1.3rem;
+}
+
+.mdarrowforward{
+    position: relative;
+    top: 4px;
+    margin-left: 2px;
 }
